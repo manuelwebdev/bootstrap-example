@@ -1,0 +1,246 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*----------------------------- NAVBAR STYLES --*/
+.navbar {
+	background-color: #287880;
+	width: 100%;
+	z-index: 100;
+}
+.signIn {
+	background-image: none;
+	background-color: #54C1CD;
+	border: none;
+	
+}
+.leaf {
+	font-size: 28px;
+}
+.myTitle {
+	color: #54C1CD;
+	font-size: 24px;
+	font-size: 30px;
+}
+.navbar-brand {
+	color: #54C1CD;
+	font-size: 24px;
+}
+.myMenuButton {
+	background-color: #287880;
+}
+.myMenu {
+	background-color: #287880;
+	border: 1px solid #287880;
+}
+/*-- MAIN CONTENT STYLES --*/
+body {
+	background-color: #FFFFFF;
+	width: 100%;
+	
+}
+.content {
+	max-width: 1200px;
+	margin:auto;
+	width: 100%;
+} 
+.btL {
+	background-image: url(../img/leaf.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.btL h1,p{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+.getStarted {
+	background-image: none;
+	background-color: #54C1CD;
+	border: none;
+	color: #fff;
+	font-weight: normal;
+	
+}
+.col1 {
+	background-color: #287880;
+	height: auto;
+	float: left;
+}
+.col2 {
+	background-color: #287880;
+	height: auto;
+	float: left;
+}
+.col3 {
+	background-color: #287880;
+	height: auto;
+	float: left;
+}
+.col4 {
+	background-color: #287880;
+	height: auto;
+	float: left;
+}
+.btn1 {
+    position: absolute;
+    bottom: 30px;
+	left: 70%;
+}
+.getInfo {
+	width: 100%;
+	margin:auto;
+}
+.email {
+	font-size: 18px;
+}
+
+
+.slide img{
+	margin: auto;
+}
+.thumbnail {
+	background-color: #287880;
+}
+.thumbnail img {
+	width: 100%;
+	height: auto;
+}
+.mySend {
+	font-size: 16px
+}
+.thumbCap {
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+}
+/*--------------------- COLLAPSE --*/
+.myHead {
+	background-image: none;
+	background-color: #5cbdaa;
+	
+	
+}
+
+.panel-body {
+	background-color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+.panel-default{
+	background-image: none;
+}
+.myAccordion{
+	background-image: none;
+	background-color: #287880; 
+}
+
+
+/*--FOOTER STYLESHEET--*/
+footer {
+	background-color: #287880;
+	width: 100%;
+}
+footer p {
+	text-align: center; 
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/*flex box css tricks*/
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+
+.col1 {
+	height: auto;
+}
+.col2 {
+	height: auto;
+}
+.col3 {
+	height: auto;
+}
+.col4 {
+	height: auto;
+}
+
+.btn1 {
+    bottom: 30px;
+	left: 45%;
+}
+.getInfo {
+	width: 50%;
+	margin:auto;
+
+}	
+.leafBtn {
+	width: 30%;
+	margin:auto;
+}	
+	
+}/*END QUERY*/
+
+@media only screen and (min-width: 993px) and (max-width:1200px) {
+	
+.col1 {
+	height: auto;
+}
+.col2 {
+	height: auto;
+}
+.col3 {
+	height: auto;
+}
+.col4 {
+	height: auto;
+}
+
+.btn1 {
+    bottom: 30px;
+	left: 45%;
+}
+.getInfo {
+	width: 50%;
+	margin:auto;
+
+}	
+.leafBtn {
+	width: 30%;
+	margin:auto;
+}	
+	
+}/*END QUERY*/
+
+@media only screen and (min-width: 1201px) {
+.col1 {
+	height: auto;
+}
+.col2 {
+	height: auto;
+}
+.col3 {
+	height: auto;
+}
+.col4 {
+	height: auto;
+}
+
+.btn1 {
+    bottom: 30px;
+	left: 55%;
+}
+.getInfo {
+	width: 50%;
+	margin:auto;
+
+}	
+.myBtn {
+	width: 30%;
+}		
+	
+}/*END QUERY*/
+
+
+
+
+
+
